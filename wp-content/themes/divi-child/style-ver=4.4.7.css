@@ -1,0 +1,191 @@
+/*
+Theme Name: Divi Child
+Description: Divi Child
+Author: WPViking Agency
+Author URI: https://wpviking.agency/
+Template: Divi
+Version: 1.0.0
+Text Domain:  Divi
+*/
+
+/** Menüsor mobilos nézetre váltson **/
+@media (max-width: 1110px) {
+ #et_mobile_nav_menu {
+ display: block;
+ }
+#top-menu {
+ display: none;
+ }
+}
+
+span.mobile_menu_bar:before {
+    color: #009b6e !important;
+}
+
+@media all and (max-width: 1110px) {
+#mobile_menu {
+	
+background-color: #fff !important;}
+}
+
+.et_mobile_menu { border-top: 3px solid #fff; }
+
+span.mobile_menu_bar:before {
+    color: #321f0f !important;
+}
+
+
+/** Menüsor mobilos nézetre váltson **/
+
+
+
+
+
+.et_pb_widget {
+    float: none !important;
+}
+
+.et_pb_gutters3.et_pb_footer_columns3 .footer-widget .fwidget {
+    margin-bottom: 30px;
+}
+
+
+/* Kijelölés szín */
+::-moz-selection {
+  color: #fff;
+  background: #321f0f;
+}
+
+::selection {
+  color: #fff;
+  background: #321f0f;
+} 
+
+
+/*********** ÓRÁK ************/
+p.trx {
+    background: #fde42f;
+    font-size: 18px;
+    padding: 8px;
+	color: #341d07;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.trx---kezdõ {
+    background: #ffbf05;
+    font-size: 18px;
+    padding: 8px;
+	color: #341d07;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.funkcionalis-koredzes {
+    background: #91d2b5;
+    font-size: 18px;
+    padding: 8px;
+	color: #341d07;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.kettlebell {
+    background: #c71919;
+    font-size: 18px;
+    padding: 8px !important;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.step-aerobic {
+    background: #c2d6e1;
+    font-size: 18px;
+    padding: 8px;
+	color: #341d07;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.cardio-kickbox {
+    background: #c58ed9;
+    font-size: 18px;
+    padding: 8px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.thai-box {
+    background: #59666f;
+    font-size: 18px;
+    padding: 8px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.alakformalo-aerobic {
+    background: #70cbff;
+    font-size: 18px;
+    padding: 8px;
+	color: #341d07;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.intervall-koredzes {
+    background: #8fbf1e;
+    font-size: 18px;
+    padding: 8px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.dancefit {
+    background: #8d5cc3;
+    font-size: 18px;
+    padding: 8px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+p.gymnastx-body {
+    background: #1764a7;
+    font-size: 18px;
+    padding: 8px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+}
+
+h2.Hetfo {
+	padding-top: 30px;
+}
+
+h2.Kedd {
+	padding-top: 30px;
+}
+
+h2.Szerda {
+	padding-top: 30px;
+}
+
+h2.Csutortok {
+	padding-top: 30px;
+}
+
+h2.Pentek {
+	padding-top: 30px;
+}
+
+h2.Szombat {
+	padding-top: 30px;
+}
+
+h2.Vasarnap {
+	padding-top: 30px;
+}
